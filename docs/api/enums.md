@@ -3,7 +3,7 @@
 This section describes the enumerations that are used in the API.
 
 | **Enum**   | **Name**                       | **Value** |
-|------------|--------------------------------|-----------|
+| ---------- | ------------------------------ | --------- |
 | ActionType | WALK                           | 0x1       |
 |            | WALK_TO_ENTITY                 | 0x2       |
 |            | RUN                            | 0x3       |
@@ -25,4 +25,4 @@ This section describes the enumerations that are used in the API.
 |            | UNK1                           | 0x2B      |
 |            | NPC_INIT                       | 0x2F      |
 |            | UNK2                           | 0x43      |
-|            | UNK3                           | 0x44      |]
+|            | UNK3                           | 0x44      |

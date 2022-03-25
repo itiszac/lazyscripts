@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# Getting Started
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+lazybot is a Diablo II: Resurrected bot engine written in C++ exposing a simple to use Lua based scripting interface.
 
-## Commands
+## Getting Started
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- `git clone git@github.com:itiszac/lazyscripts.git` - Clone the repository.
+- Set the path location of the scripts file in lazybot.
+- Load up the scripts with lazybot launcher.
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    mkdocs.yml       # The docs configuration file.
+    scripts/         # The scripts folder.
+      *.lua          # The scripts.
+    docs/            # The documentation folder.
+      *.md           # The documentation.
+    README.md        # The readme file.
+    requirements.txt # The requirements file.

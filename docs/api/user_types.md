@@ -1,7 +1,7 @@
 # User Types
 
 | **Name**   | **Type**   | **Fields/Methods** | **Description**                                                                                                         |
-|------------|------------|--------------------|-------------------------------------------------------------------------------------------------------------------------|
+| ---------- | ---------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------- |
 | GameInfo   | string     | gameName           | The game's name                                                                                                         |
 |            | string     | gamePassword       | The game's password                                                                                                     |
 |            | string     | regionBuffer       | The region buffer                                                                                                       |
@@ -31,4 +31,4 @@
 |            | number     | charges            | The remaining charges on a skill                                                                                        |
 |            | number     | isCharge           | Is a charge skill?                                                                                                      |
 | SkillInfo  | number     | id                 | The skill id                                                                                                            |
-|            | string     | name               | The skill name  
+|            | string     | name               | The skill name                                                                                                          |
