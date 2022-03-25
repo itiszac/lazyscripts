@@ -1,1 +1,37 @@
-site_name: My Docs
+site_name: lazybot API
+repo_url: https://github.com/itiszac/lazyscripts
+repo_name: lazyscripts
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.top
+  font:
+    code: Poppins Mono
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: black
+      accent: indigo
+    - media: "(prefers-color-schema: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: black
+      accent: indigo
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/itiszac/lazyscripts
+copyright: Copyright &copy; 2022
+plugins:
+  - git-revision-date:
+      enabled_if_env: CI
